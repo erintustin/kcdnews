@@ -1,10 +1,28 @@
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import Navigation from './components/Navigation';
+import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import ProjectDetailPage from './pages/ProjectDetailPage';
+import Resume from './pages/Resume';
 
-const App = () => {
+
+function App() {
   return (
-    <div className="content">
-      <h1>Rsbuild with React</h1>
-      <p>Start building amazing things with Rsbuild.</p>
+    <div className="App">
+      <Navigation />
+      <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/about' element={<AboutPage />} />
+          <Route
+                    path='projects/:projectName'
+                    element={<ProjectDetailPage />}
+                />
+          <Route path='/resume' element={<Resume />} />
+      </Routes>
+      <Footer />
     </div>
   );
 };
