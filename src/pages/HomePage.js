@@ -5,7 +5,7 @@ import Skills from '../components/Skills';
 const HomePage = () => {
     return(
         <Container>
-            
+            <Summary />
         </Container>
     )
 };
