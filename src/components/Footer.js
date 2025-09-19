@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'reactstrap';
+import llgs from '../app/assets/images/llgs.jpg';
 
 
 
@@ -8,6 +9,7 @@ const Footer = () => {
             <Container fluid='true'>
                 <Row>
                     <Col className='mx-auto p-10'>
+                    <div><img className='mb-0' src={llgs} width='25%' alt='live laugh goon shred' /></div>        
                         <a
                             role='button'
                             className='btn btn-social-icon btn-dark mb-2'
@@ -31,7 +33,7 @@ const Footer = () => {
                         >
                             <i className='fa fa-envelope-o' />
                         </a>
-                        <p>© 2025 Kurt Cobain's Dad</p>
+                        
                     </Col>
                 </Row>
             </Container>
