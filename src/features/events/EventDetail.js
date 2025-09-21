@@ -2,21 +2,21 @@ import { useState } from 'react';
 import {Carousel, CarouselItem, CarouselControl, CarouselIndicators, 
         Container, Row, Col, ButtonGroup, Button } from 'reactstrap';
 
-const ProjectDetail = ({project}) => {
-    const {name, screenshots, description, url, github, skills, details, readme } = project;
+const EventDetail = ({event}) => {
+    const {name, location, date, type, flyer, photos, description } = event;
 
     const [activeIndex, setActiveIndex] = useState(0);
     const [animating, setAnimating] = useState(false);
 
     const next = () => {
         if (animating) return;
-        const nextIndex = activeIndex === screenshots.length - 1 ? 0 : activeIndex + 1;
+        const nextIndex = activeIndex === photos.length - 1 ? 0 : activeIndex + 1;
         setActiveIndex(nextIndex);
     };
 
     const previous = () => {
         if (animating) return;
-        const nextIndex = activeIndex === 0 ? screenshots.length - 1 : activeIndex - 1;
+        const nextIndex = activeIndex === 0 ? photos.length - 1 : activeIndex - 1;
         setActiveIndex(nextIndex);
     };
 
@@ -25,7 +25,7 @@ const ProjectDetail = ({project}) => {
         setActiveIndex(newIndex);
     };
 
-    const slides = screenshots.map((screenshot, i) => {
+    const slides = photos.map((photo, i) => {
         return(
             <CarouselItem
                 onExiting={() => setAnimating(true)}
@@ -36,13 +36,18 @@ const ProjectDetail = ({project}) => {
                 <img 
                     className='screenshot mx-auto img-fluid' 
                     src={screenshot} 
-                    alt={`Screenshot of ${name}`} 
+                    alt={'${photo.alt}'} 
                 />
             </CarouselItem> 
             );
     });
     return (
         <Container className='mx-auto'>
+            <Row>
+                <Col xs='6' className='mx-auto mt-4 mb-2'>
+                    <img src={flyer} alt='${name} Flyer' className='img-fluid' />
+                </Col>
+            </Row>
             <Row>
                 <Col md='8' className='mx-auto'>
                     <h2 className='content'>{name}</h2>
@@ -58,7 +63,7 @@ const ProjectDetail = ({project}) => {
                         className='mx-auto mb-5'
                     >
                         <CarouselIndicators
-                        items={screenshots}
+                        items={photos}
                         activeIndex={activeIndex}
                         onClickHandler={goToIndex}
                         />
@@ -85,49 +90,23 @@ const ProjectDetail = ({project}) => {
             </Row>
             <Row>
                 <Col md='7' className='mx-auto'>
-                    <p className='content' align='justify'>{details}</p>
+                    <p className='content' align='justify'>{description}</p>
                 </Col>
             </Row>
             <Row>
                 <Col xs='6' className='mx-auto'>
                     <ButtonGroup className='mx-auto mb-3'>
-                        <Button 
-                            color='secondary'
-                            size='md'
-                            className='m-1'
-                            href={github} target='new_window'>
-                            Code</Button>
-                            <Button 
-                                color='secondary'
-                                href={url} target='new_window'
-                                size='md'
-                                className='m-1'
-                                >Demo</Button>
-                        <Button 
-                                color='secondary'
-                                href={readme} target='new_window'
-                                size='md'
-                                className='m-1'
-                                >.README</Button>
+                        
                     </ButtonGroup>  
                </Col>          
             </Row>
             <Row>
                 <Col xs='12' md='7' className='mx-auto mb-5'>
-                    <p align='justify'>{skills.join(', ')}</p>
+                   
                 </Col>
             </Row>
       </Container>
     )
 };
 
-
-
-
-
-   
-    
-
-
-
-export default ProjectDetail;
+export default EventDetail;

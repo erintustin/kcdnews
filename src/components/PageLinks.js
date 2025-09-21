@@ -36,7 +36,7 @@ const PageLinks = () => {
                 <CardBody>
                     <CardTitle tag="h5">SOCIAL</CardTitle>
                     <CardText>Keep up with the latest gay news</CardText>
-                    <Button outline color="secondary">Follow Us</Button>
+                    <Button href="https://www.instagram.com/_kurtcobainsdad" target="new_window" outline color="secondary">Follow Us</Button>
                 </CardBody>
             </Card>
        </Container>

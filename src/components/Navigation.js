@@ -29,10 +29,10 @@ const Navigation = () => {
                     <NavLink className='nav-link' to='/about'>ABOUT </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className='nav-link' to='/shows'>SHOWS </NavLink>
+                    <NavLink className='nav-link' to='/events'>EVENTS </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink className='nav-link' to='/gallery'>GALLERY </NavLink>
+                    <NavLink className='nav-link' to='/music'>MUSIC </NavLink>
                 </NavItem>
                 <NavItem>
                     <a className='nav-link' href='mailto:babykittenz69@gmail.com'>CONTACT</a>

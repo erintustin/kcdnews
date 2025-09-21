@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 import logger from 'redux-logger';
-import { projectsReducer } from '../features/projects/ProjectsSlice';
+import { eventsReducer } from '../features/events/EventsSlice';
 import { skillsReducer } from '../features/skills/SkillsSlice';
 
 
@@ -8,7 +8,7 @@ import { skillsReducer } from '../features/skills/SkillsSlice';
 export const store = configureStore({
   reducer: {
     skills: skillsReducer,
-    projects: projectsReducer
+    events: eventsReducer
 
   },
   middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat([logger])

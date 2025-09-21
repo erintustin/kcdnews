@@ -5,8 +5,9 @@ import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
-import ShowsPage from './pages/ShowsPage';
+import EventsPage from './pages/EventsPage';
 import GalleryPage from './pages/GalleryPage';
+import EventDetailPage from './pages/EventDetailPage';
 import Ticker from 'react-ticker';
 
 
@@ -26,8 +27,12 @@ function App() {
       <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/about' element={<AboutPage />} />
-          <Route path='/shows' element={<ShowsPage />} />
-          <Route path='/gallery' element={<GalleryPage/>} />
+          <Route path='/events' element={<EventsPage />} />
+          <Route
+                    path='events/:eventName'
+                    element={<EventDetailPage />}
+                />
+          <Route path='/music' element={<GalleryPage/>} />
       </Routes>
       <Footer />
     </div>
