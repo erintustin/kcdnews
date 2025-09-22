@@ -124,16 +124,9 @@
   margin-top: 20px;
 }
 
-.project-card {
-  max-width: 600px;
-}
 
-.project-card-img {
-    height: 350px;
-}
-
-.portfolio-slide {
-  margin-bottom: 75px;
+.flyers-past {
+  width: 250px;
 }
 
 .screenshot{
