@@ -23,7 +23,7 @@ const Intro = () => {
                 <CardText>
                   Hi! We're Kurt Cobain's Dad--a collective of queer artists and friends dedicated to amplifying LGBTQ+BIPOC voices in the diy music scene. Our mission is to provide a rockin' good time, promote inclusivity, and celebrate the diverse talents within our community.
                 </CardText>
-                <Button href="/about" outline color="secondary">Read More</Button>
+                <Button role="button" href="/about" outline color="secondary">Read More</Button>
               </CardBody>
             </Card>
        </Container>

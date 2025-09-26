@@ -18,7 +18,7 @@ const Resume = () => {
             </Row>
             <Row>
                 <Col className='mx-auto m-1'>
-                    <Button 
+                    <Button role="button" 
                         className='btn btn-secondary btn-md' 
                         href={process.env.PUBLIC_URL + 'resume.pdf'}>
                         View .PDF</Button>

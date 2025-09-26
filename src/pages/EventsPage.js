@@ -35,7 +35,7 @@ const EventsPage = () => {
              <Row className='mb-5'>
                 <Col className='mx-auto'>
                     <h2 style={{color:'white'}}>BOOKING</h2>
-                    <Button className='btn btn-secondary btn-md' href='mailto:babykittenz69@gmail.com'>Contact Us</Button>
+                    <Button role="button" className='btn btn-secondary btn-md' href='mailto:babykittenz69@gmail.com'>Contact Us</Button>
                 </Col>
             </Row>
             <Row>

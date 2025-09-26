@@ -17,7 +17,7 @@ const Navigation = () => {
         <Navbar dark color='black' sticky='top' expand='md' className='mt-0'>
             <NavbarBrand className='ms-5 navbarbrand' href='/'>
                 <img src={logo} alt='kcd rainbow logo' className='navlogo float-start App-logo' href='/'/>
-            <NavbarText className='h1'>KCD NEWS</NavbarText>
+            <NavbarText className='h1 rainbow-text'>KCD NEWS</NavbarText>
             </NavbarBrand>
             <NavbarText className='watch-live'>
                 <i className='blink-icon fa fa-circle' /> LIVE
