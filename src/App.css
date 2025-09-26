@@ -89,6 +89,18 @@
   text-align: center;
 }
 
+.content-smaller {
+  font-size: 0.8rem; /* Example: setting a specific font size */
+}
+
+.square-element {
+      width: 100%;
+      aspect-ratio: 1 / 1; /* Makes height equal to width */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
 .navlogo {
   height: 50px;
   margin: 5px;
@@ -144,6 +156,7 @@
 .breadcrumb {
   margin-left: 50px;
   text-align: left;
+  color: whitesmoke;
 }
 
 
