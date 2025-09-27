@@ -16,10 +16,10 @@ const MusicPage = () => {
             <Row>
                 <Col className='mx-auto mb-2'>
                    <div className='content-center'>
-                    <h1>BETTING ON SPORTS</h1>
+                    <h1 className='h1'>BETTING ON SPORTS</h1>
                      <img src={albumcover} alt="this is not our real album cover" width="75%"/>
                     <br></br>
-                    <h2>our debut EP is coming soon!</h2>
+                    <h2 className='h2'>our debut EP is coming soon!</h2>
                     </div>
                 </Col>
             </Row>
@@ -43,7 +43,7 @@ const MusicPage = () => {
                 <Col xs='4'><img className='img-fluid square-element mb-4' src={bos6}></img></Col>  
             </Row>
             <Row>
-                <h1>
+                <h1 className='h1'>
                     Stay tuned for info about our release party and how to listen!
                 </h1>
             </Row>

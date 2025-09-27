@@ -9,8 +9,8 @@ const EventDetail = ({event}) => {
             <Container className='mx-auto'>
                 <Row>
                     <Col xs='10' className='mx-auto mt-4 mb-2'>
-                        <h1>{date}</h1>
-                        <h2>{location}</h2>
+                        <h1 className='h1'>{date}</h1>
+                        <h2 className='h2'>{location}</h2>
                         <img src={flyer} alt='${name} Flyer' className='img-fluid' />
                         <div className='content-center my-2'>{description}</div>
                     </Col>
@@ -30,8 +30,8 @@ const EventDetail = ({event}) => {
             <Container className='mx-auto'>
                 <Row>
                     <Col xs='10' className='mx-auto mt-4 mb-2'>
-                        <h1>{date}</h1>
-                        <h2>{location}</h2>
+                        <h1 className='h1'>{date}</h1>
+                        <h2 className='h2'>{location}</h2>
                         <img src={flyer} alt='${name} Flyer' className='img-fluid' />
                         <div className='content-center my-2'>{description}</div>
                         <div className='content-center my-2'>{details}</div>

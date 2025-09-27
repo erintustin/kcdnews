@@ -2,13 +2,6 @@ import {
   Container,
   Row,
   Col,
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  Button
 } from 'reactstrap'
 import Intro from '../components/Intro';
 import PageLinks from '../components/PageLinks';
