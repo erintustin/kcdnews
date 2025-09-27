@@ -39,7 +39,7 @@
 .watch-live {
   color: whitesmoke;
   font-weight:bold;
-  font-size: 20px;
+  font-size: x-small;
 }
 
 .App-header {
@@ -79,12 +79,20 @@
   font-weight: bold;
 }
 
+.h1-rainbow-text {
+  background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  color: transparent; /* Or -webkit-text-fill-color: transparent; */
+  font-weight: bold;
+  font-size: xx-large;
+}
+
 .h1 {
   color: white;
 }
 
 .h2 {
-  color: gray;
+  color: lightgray;
 }
 
 .content {
@@ -112,15 +120,7 @@
 
 
 .navlogo {
-  height: 50px;
-  margin: 5px;
-  margin-right: 15px;
-
-}
-
-.navbarbrand{
-  display: flex;
-  justify-content: center;
+  height: 40px;
 }
 
 
