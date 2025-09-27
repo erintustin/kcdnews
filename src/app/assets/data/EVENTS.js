@@ -1,5 +1,6 @@
 
 import jasmine4tflyer from '../images/events/flyers/jasmine4tflyer1.jpg';
+import jasmine4tflyer2 from '../images/events/flyers/jasmine4tflyer2.jpg';
 import kindaalrightfarewellflyer from '../images/events/flyers/philamoca09062025flyer.jpg';
 import kindaalrightfarewellphoto1 from '../images/events/kindaalright/kcdphilamocapokemon.jpg';
 import kindaalrightfarewellphoto2 from '../images/events/kindaalright/squirtlesquad.jpg';
@@ -18,10 +19,21 @@ export const EVENTS = [
     location:'The Lounge at World Cafe Live, Philadelphia, PA',
     date:'September 30, 2025',
     flyer:jasmine4tflyer,
-    photos:[],
+    photos:[
+         {
+          "src": jasmine4tflyer2, 
+          "alt": "additional flyer for jasmine4t at WCL", 
+          "credit": "",
+          "id": 1
+        },
+    ],
+    youtube:[],
+    reels:[],
     type:'upcoming',         
-    description: 'Supporting Jasmine.4.T on the Philly stop of her world tour!',
-    link: ''
+    description: 'Supporting Jasmine.4.T on the Philly stop of her TRANARCHY WORLD TOUR',
+    details: 'DOORS 6PM - MUSIC 8PM',
+    ticketslocation: "WORLDCAFELIVE.ORG",
+    ticketslink: 'https://www.etix.com/ticket/p/46873705/jasmine4t-wkurt-cobains-dad-philadelphia-the-lounge-at-world-cafe-live?partner_id=240&_ga=2.224394139.1676376206.1758942390-1559739147.1758942389'
 },
 {
     name: 'KINDA ALRIGHT FAREWELL SHOW',

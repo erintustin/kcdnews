@@ -1,14 +1,14 @@
 import { configureStore } from '@reduxjs/toolkit';
 import logger from 'redux-logger';
 import { eventsReducer } from '../features/events/EventsSlice';
-import { skillsReducer } from '../features/skills/SkillsSlice';
+import { storiesReducer } from '../features/stories/StoriesSlice';
 
 
 
 export const store = configureStore({
   reducer: {
-    skills: skillsReducer,
-    events: eventsReducer
+    events: eventsReducer,
+    stories: storiesReducer
 
   },
   middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat([logger])

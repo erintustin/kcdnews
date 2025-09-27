@@ -19,8 +19,7 @@ return (
                 <CardSubtitle className='p-2'>{description}</CardSubtitle>
            </CardBody>
               <ButtonGroup className='mx-auto m-3'>
-                   
-                    
+
                    <Button
                            color='secondary'
                            size='sm'

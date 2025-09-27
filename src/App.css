@@ -79,6 +79,10 @@
   font-weight: bold;
 }
 
+h1 {
+  color: white;
+}
+
 .content {
   color: white;
   text-align: justify;
@@ -91,6 +95,7 @@
 
 .content-smaller {
   font-size: 0.8rem; /* Example: setting a specific font size */
+  color: white;
 }
 
 .square-element {
@@ -100,6 +105,7 @@
       justify-content: center;
       align-items: center;
     }
+
 
 .navlogo {
   height: 50px;
@@ -145,12 +151,8 @@
   width: 250px;
 }
 
-.screenshot{
-  max-height: 300px;
-}
-
-.carousel-control {
-  margin: -75px;
+.card-img-top {
+      object-fit: contain;
 }
 
 .breadcrumb {
@@ -158,6 +160,7 @@
   text-align: left;
   color: whitesmoke;
 }
+
 
 
 

@@ -1,4 +1,4 @@
-import { Container } from 'reactstrap';
+import { Container, Button } from 'reactstrap';
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { selectEventByName } from '../features/events/EventsSlice';
@@ -16,6 +16,7 @@ const EventDetailPage = () => {
             <SubHeader current={eventName} detail={true} detailRoute='Events' />
             <Container>
                     <EventDetail event={event} />
+                    <Button role="button" className='mb-5' href="/events">Back to Events</Button>
             </Container>
             </>
     );

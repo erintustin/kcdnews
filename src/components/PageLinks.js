@@ -19,7 +19,7 @@ const PageLinks = () => {
                 <CardImg top width="100%" src={eventsphoto} alt="Events Photo" />
                 <CardBody>
                     <CardTitle tag="h5">EVENTS</CardTitle>
-                    <CardSubtitle tag="h6" className="mb-2 text-muted">Get the scoop on upcoming shows and appearances</CardSubtitle>
+                    <CardSubtitle tag="h6" className="mb-2 text-muted">Get the scoop on upcoming shows and appearances and check out our gallery of past performances</CardSubtitle>
                     <Button role="button" outline color="secondary" href="/events">Come Hang</Button>
                 </CardBody>
                 </Card>
@@ -28,7 +28,7 @@ const PageLinks = () => {
                 <CardBody>
                     <CardTitle tag="h5">MUSIC</CardTitle>
                     <CardSubtitle tag="h6" className="mb-2 text-muted">This is no bologna--we really are a band </CardSubtitle>
-                    <Button outline color="secondary" href="/music">Listen Now</Button>
+                    <Button outline color="secondary" href="/music">Listen Up</Button>
                 </CardBody>
                 </Card>
                 <Button role="button" className='btn-drk rainbow-text' href="https://www.instagram.com/_kurtcobainsdad/" target="new_window">

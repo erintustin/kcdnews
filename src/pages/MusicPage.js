@@ -14,29 +14,24 @@ const MusicPage = () => {
         <SubHeader current='Music' />
         <Container>
             <Row>
-                <Col className='mx-auto mb-3'>
-                    <h2 style={{color:'white'}}>COMING SOON</h2>
+                <Col className='mx-auto mb-2'>
+                   <div className='content-center'>
+                    <h1>BETTING ON SPORTS</h1>
+                     <img src={albumcover} alt="this is not our real album cover" width="75%"/>
+                    <br></br>
+                    <h2>our debut EP is coming soon!</h2>
+                    </div>
                 </Col>
             </Row>
-            <Row className='mb-5'>
+            <Row>
                 <Col md='8' className='mx-auto'>
-                    <img src={albumcover} alt="this is not our real album cover" width="75%"/>
-                <div className='content-center my-3'>
-                    Our much anticipated debut EP 
-                    <h2>Betting on Sports</h2>
-                    is finally coming soon! 
-                    </div>
-                 <div className='content-center mb-3'>
+                   
+                 <div className='content-center content-smaller mb-3'>
                     Recorded by our own Mary Jadzia Smith <br></br>at The Anklepit <br>
                     </br><br></br>Mixed by Mattie Chaya Kimberly Klauser <br></br>Pillow Princess Productions<br>
                     </br> <br></br>Mastered by Elaine Rasnake <br></br>Daughterboard Audio<br>
                     </br> <br></br>
                     and featuring NEW yet-to-be-seen ungooglable photos of Pete Rose!</div>
-                
-                <div className='content-center'>
-                    We had a blast putting this together along with the incredible talents of our community && 
-                    we can't wait to share it with you!
-                   </div>
                 </Col>
             </Row>
             <Row>
@@ -47,14 +42,13 @@ const MusicPage = () => {
                 <Col xs='4'><img className='img-fluid square-element mb-4' src={bos4}></img></Col>
                 <Col xs='4'><img className='img-fluid square-element mb-4' src={bos6}></img></Col>  
             </Row>
-            <Row className='mb-5'>
-                 <div className='content-center'>
+            <Row>
+                <h1>
                     Stay tuned for info about our release party and how to listen!
-                </div>
+                </h1>
             </Row>
-            
-</Container>
-</>
+        </Container>
+    </>
     )
 };
 

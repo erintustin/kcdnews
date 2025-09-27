@@ -16,11 +16,11 @@ const AboutPage = () => {
             </div>
                 <img src={us} width='85%' alt='us' />
             <div className='content-center mb-5'>
-                "What if Kurt Cobain's father had actually just been four queers in a trench coat?"
+                "What if Kurt Cobain's father had just been four queers in a trench coat?"
             </div>
             <div className="px-5">
                 <div className='content'>
-                    We are a band of cute && silly trans && queer friends screamshouting songs about our parents and trying to love one other up from the depths of our hearts and a basement somewhere in West Philadelphia. 
+                    We are a band of cute && silly trans && queer friends screamshouting songs about our parents && trying to love one other up from the depths of our hearts and a basement somewhere in West Philadelphia. 
                 </div>
 
                 <div className='mt-3 mb-2 content'>
