@@ -27,3 +27,9 @@ export const selectEventsByType = (type) => (state) => {
         (event) => event.type === type
     );
 };
+
+export const selectEventByUri = (uri) => (state) => {
+    return state.events.eventsArray.find(
+        (event) => event.uri === uri
+    );
+};

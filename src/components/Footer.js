@@ -21,10 +21,10 @@ const Footer = () => {
                         <a
                             role='button'
                             className='btn btn-social-icon btn-dark mb-2'
-                            href='tel:+2156224191'
+                            href='sms:12156224191'
                             target='new_window'
                         >
-                            <i className='fa fa-phone' />
+                            <i className='fa fa-comments' />
                         </a>{' '}
                         <a
                             role='button'

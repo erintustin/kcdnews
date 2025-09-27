@@ -3,7 +3,7 @@ import { Card, CardImg, CardSubtitle, CardTitle,
 import { Link } from 'react-router-dom';
 
 const EventCard = ({event}) => {
-const { name, flyer, description, type } = event;
+const { name, flyer, description, type, uri } = event;
 
 if (event.type === 'upcoming') {
 return (
@@ -24,7 +24,7 @@ return (
                            color='secondary'
                            size='sm'
                            className='m-1'
-                           href={`/events/${name}/`}>
+                           href={`/events/${uri}/`}>
                            More Info</Button>
                </ButtonGroup>             
         
@@ -36,7 +36,7 @@ else {
         return (
                 <Card className='m-2 mx-auto flyers-past' color='dark' inverse>    
            <    CardBody className='p-0 mx-auto' >
-                <Link to={`/events/${name}/`}>
+                <Link to={`/events/${uri}/`}>
                         <CardImg 
                                 className='m-0 img-fluid'
                                 src={flyer}

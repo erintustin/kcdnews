@@ -24,7 +24,7 @@ const HomePage = () => {
             <Intro />
             <div className="marquee-container mb-3">
             <div className="marquee-content">
-              <span className='rainbow-text'>LIVE LAUGH GOON SHRED LIVE LAUGH GOON SHRED LIVE LAUGH GOON SHRED LIVE LAUGH GOON SHRED</span>
+              <h2 className='rainbow-text'>LIVE LAUGH GOON SHRED LIVE LAUGH GOON SHRED LIVE LAUGH GOON SHRED LIVE LAUGH GOON SHRED</h2>
             </div>
             </div>
           </Col>

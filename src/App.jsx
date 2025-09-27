@@ -19,7 +19,7 @@ function App() {
           <Route path='/events' element={<EventsPage />} />
           <Route path='/music' element={<MusicPage />} />
           <Route
-                    path='events/:eventName'
+                    path='events/:eventUri'
                     element={<EventDetailPage />}
                 />
           
