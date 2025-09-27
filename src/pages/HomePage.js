@@ -12,7 +12,7 @@ const HomePage = () => {
     return(
        <Container>
         {/* News Page Layout*/}
-        <Row className="mb-4 align-items-stretch">
+        <Row className="mt-5 mb-4 align-items-stretch">
           <Col md="8" className="d-flex flex-column">
             <Intro />
             <div className="marquee-container mb-3">
