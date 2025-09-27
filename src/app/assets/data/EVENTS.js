@@ -26,7 +26,7 @@ import porchfest25_10 from '../images/events/porchfest25/porchfest25-10.png';
 import porchfest25_11 from '../images/events/porchfest25/porchfest25-11.png';
 import porchfest25_12 from '../images/events/porchfest25/porchfest25-12.png';
 import wppf2025flyer from '../images/events/flyers/wppf2025flyer.jpg';
-import abyssinia05252025flyer from '../images/events/flyers/abyssinia05252025flyer.jpg';
+import abyssinia05252025flyer from '../images/events/flyers/Abyssinia05252025flyer.jpg';
 import war3houseflyer from '../images/events/flyers/warehouse3flyer.jpg';
 import hhhflyer from '../images/events/flyers/hhhflyer.jpg';
 import kohshowflyer from '../images/events/flyers/kohshow.jpg';
