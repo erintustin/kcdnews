@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": {
-    "node": "22.x"
-  },
   "scripts": {
     "build": "rsbuild build",
     "dev": "rsbuild dev --open",
@@ -13,7 +10,8 @@
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "react": "^19.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.9.3",
     "react-scripts": "^0.0.0",
