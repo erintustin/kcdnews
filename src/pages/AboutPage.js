@@ -1,4 +1,4 @@
-import { Container } from 'reactstrap';
+import { Container, Button } from 'reactstrap';
 import SubHeader from '../components/SubHeader';
 import us from '../app/assets/images/meettheband.png';
 import hugs from '../app/assets/images/hugs.jpg';
@@ -26,8 +26,11 @@ const AboutPage = () => {
                 <div className='mt-3 mb-2 content'>
                     We are dedicated to amplifying LGBTQ+BIPOC voices in the DIY music scene and beyond.  We do our best to provide a rockin' good time, promote inclusivity, and celebrate the diverse talents within our community.
                 </div>
-                <div className='mt-3 mb-5 content'>
-                    We would love to hear from you about events and opportunities aligned with these goals.
+                <div className='mt-3 content'>
+                We would love to hear from you about events and opportunities aligned with these goals.
+                    <div className='mt-3 mb-5 content-center'>
+                    <Button className='btn-dark' role="button" href="/contact">Reach Out!</Button>
+                </div>
                 </div>
                 <img className='mb-5' src={anklepit1} width='85%' alt='playing in the basement' />
                 <img className='mb-5' src={anklepit2} width='85%' alt='playing in the basement' />
