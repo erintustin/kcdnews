@@ -24,9 +24,8 @@ const MusicPage = () => {
                 </Col>
             </Row>
             <Row>
-                <Col md='8' className='mx-auto'>
-                   
-                 <div className='content-center content-smaller mb-3'>
+                <Col md='8' className='mx-auto'>  
+                    <div className='content-center content-smaller mb-3'>
                     Recorded by our own Mary Jadzia Smith <br></br>at The Anklepit <br>
                     </br><br></br>Mixed by Mattie Chaya Kimberly Klauser <br></br>Pillow Princess Productions<br>
                     </br> <br></br>Mastered by Elaine Rasnake <br></br>Daughterboard Audio<br>

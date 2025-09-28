@@ -3,8 +3,6 @@ import logger from 'redux-logger';
 import { eventsReducer } from '../features/events/EventsSlice';
 import { storiesReducer } from '../features/stories/StoriesSlice';
 
-
-
 export const store = configureStore({
   reducer: {
     events: eventsReducer,

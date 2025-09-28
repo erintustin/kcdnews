@@ -5,7 +5,7 @@ import EventVideoCard from './EventVideoCard'
 const EventMedia = ({event}) => {
     const {photos, youtube, reels} = event;
     return (     
-        <Container className='mx-auto my-5'>
+        <Container className='mx-auto'>
             <Row>
              {photos.map((photo) => {
                     return(
@@ -20,7 +20,7 @@ const EventMedia = ({event}) => {
                     );
                 })}
             </Row>
-                <Row>
+            <Row>
              {reels.map((reel) => {
                     return(
                         <Col md='6'

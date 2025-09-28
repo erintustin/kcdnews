@@ -1,15 +1,4 @@
-import {
-  Container,
-  Row,
-  Col,
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  Button
-} from 'reactstrap'
+import { Container, Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button } from 'reactstrap'
 import mainphoto from '../app/assets/images/kohshow.jpg';
 
 const Intro = () => {
@@ -27,7 +16,6 @@ const Intro = () => {
               </CardBody>
             </Card>
        </Container>
-
  )
 };
 

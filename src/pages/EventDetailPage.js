@@ -13,12 +13,12 @@ const EventDetailPage = () => {
 
     return (
         <>
-            <SubHeader current={eventUri} detail={true} detailRoute='Events' />
+            <SubHeader current={event ? event.name : ''} detail={true} detailRoute='Events' />
             <Container>
                     <EventDetail event={event} />
                     <Button role="button" className='mb-5' href="/events">Back to Events</Button>
             </Container>
-            </>
+        </>
     );
 };
 

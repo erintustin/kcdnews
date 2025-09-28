@@ -3,4 +3,7 @@ import { pluginReact } from '@rsbuild/plugin-react';
 
 export default defineConfig({
   plugins: [pluginReact()],
+  html: {
+    title: 'KCD News', // Set your desired title here
+  },
 });

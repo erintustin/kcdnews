@@ -7,7 +7,6 @@ import Intro from '../components/Intro';
 import PageLinks from '../components/PageLinks';
 import Instafeed from '../components/Instafeed';
 
-
 const HomePage = () => {
     return(
        <Container>

@@ -8,20 +8,19 @@ const SubHeader = ({ current, detail, detailRoute }) => {
                     <Breadcrumb
                         className='breadcrumb'>
                         <BreadcrumbItem>
-                            <Link to='/' style={{color: 'white'}} activestyle={{color: 'lightgray'}}>Home</Link>
+                            <Link to='/' style={{color: 'white'}}>Home</Link>
                         </BreadcrumbItem>
                     
                         {detail && (
                             <BreadcrumbItem>
-                                <Link to={`/${detailRoute}`} style={{color: 'white'}} activestyle={{color: 'lightgray'}}>{detailRoute}</Link>
+                                <Link to={`/${detailRoute}`} style={{color: 'white'}}>{detailRoute}</Link>
                             </BreadcrumbItem>
                         )}
-                        <BreadcrumbItem active>{current}</BreadcrumbItem>
+                        <BreadcrumbItem active style={{color: 'lightgray'}}>{current}</BreadcrumbItem>
                     </Breadcrumb>
                 </Col>
             </Row>
     )
-
 };
 
 export default SubHeader;

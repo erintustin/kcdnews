@@ -1,8 +1,7 @@
 import { useSelector } from 'react-redux';
 import { selectAllStories } from '../features/stories/StoriesSlice';
-import { Container, Row, Col, CardGroup } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import StoryCard from '../features/stories/StoryCard';
-
 
 const Instafeed = () => {
     const stories = useSelector(selectAllStories);

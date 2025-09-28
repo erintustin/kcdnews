@@ -8,7 +8,6 @@ import EventsPage from './pages/EventsPage';
 import MusicPage from './pages/MusicPage';
 import EventDetailPage from './pages/EventDetailPage';
 
-
 function App() {
   return (
     <div className="App">
@@ -21,8 +20,7 @@ function App() {
           <Route
                     path='events/:eventUri'
                     element={<EventDetailPage />}
-                />
-          
+                /> 
       </Routes>
       <Footer />
     </div>
