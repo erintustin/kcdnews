@@ -1,6 +1,6 @@
 import { Container } from 'reactstrap';
 import SubHeader from '../components/SubHeader';
-import videobg from '../app/assets/images/contactus.mov';
+import videobg from '../app/assets/images/contactussmall.mov';
 
 const ContactPage = () => {
     return(
