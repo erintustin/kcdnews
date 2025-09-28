@@ -8,7 +8,7 @@ const ContactPage = () => {
         <SubHeader current='Contact' />
         <Container>
             <div className='video-wrapper'>
-                <video className='video img-fluid' src={videobg} autoPlay loop controls />
+                <video className='video img-fluid' src={videobg} autoPlay loop controls muted />
                 <div className='contact-container mt-5 p-3'>
                     <div className="overlay-wrapper" style={{position: 'relative', width: '100%'}}>
                         <div className="overlay-bg"></div>
@@ -33,15 +33,6 @@ const ContactPage = () => {
                                 href='tel:12156224191'
                                 target='new_window'
                                 ><i className='fa fa-phone' /></a>{' '}
-                            </p>
-                           
-                            <p className='content-center'>
-                                <a  role='button'
-                                    className='btn btn-social-icon btn-dark m-2'
-                                    href='https://www.instagram.com/_kurtcobainsdad'
-                                    target='new_window'>
-                                    <i className='fa fa-instagram' /></a> 
-                                    Follow @_kurtcobainsdad for the latest and greatest local gay news!
                             </p>
                         </div>
                     </div>
