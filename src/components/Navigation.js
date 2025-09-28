@@ -5,6 +5,7 @@ import logo from '../app/assets/images/logo-dark.png';
 
 const Navigation = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const closeMenu = () => { setMenuOpen(false); };
 
     return(
         <Navbar dark color='black' sticky='top' expand='md' className='mt-0'>
@@ -19,16 +20,16 @@ const Navigation = () => {
             <Collapse isOpen={menuOpen} navbar>
                 <Nav className='ms-auto' navbar>
                     <NavItem>
-                        <NavLink className='nav-link' to='/about'>ABOUT </NavLink>
+                        <NavLink className='nav-link' to='/about' onClick={closeMenu}>ABOUT </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/events'>EVENTS </NavLink>
+                        <NavLink className='nav-link' to='/events' onClick={closeMenu}>EVENTS </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/music'>MUSIC </NavLink>
+                        <NavLink className='nav-link' to='/music' onClick={closeMenu}>MUSIC </NavLink>
                     </NavItem>
                     <NavItem>
-                        <a className='nav-link' href='/contact'>CONTACT</a>
+                        <a className='nav-link' href='/contact' onClick={closeMenu}>CONTACT</a>
                     </NavItem>
                 </Nav>
             </Collapse>
