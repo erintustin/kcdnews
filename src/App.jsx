@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import EventsPage from './pages/EventsPage';
+import ContactPage from './pages/ContactPage';
 import MusicPage from './pages/MusicPage';
 import EventDetailPage from './pages/EventDetailPage';
 
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' element={<HomePage />} />
           <Route path='/about' element={<AboutPage />} />
           <Route path='/events' element={<EventsPage />} />
+          <Route path='/contact' element={<ContactPage />} />
           <Route path='/music' element={<MusicPage />} />
           <Route
                     path='events/:eventUri'

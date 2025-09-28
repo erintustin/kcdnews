@@ -28,7 +28,7 @@ const Navigation = () => {
                         <NavLink className='nav-link' to='/music'>MUSIC </NavLink>
                     </NavItem>
                     <NavItem>
-                        <a className='nav-link' href='mailto:babykittenz69@gmail.com'>CONTACT</a>
+                        <a className='nav-link' href='/contact'>CONTACT</a>
                     </NavItem>
                 </Nav>
             </Collapse>

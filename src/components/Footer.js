@@ -8,7 +8,7 @@ const Footer = () => {
                 <Row>
                     <Col className='mx-auto p-10'>
                         <div>
-                            <img className='mb-0' src={llgs} width='25%' alt='live laugh goon shred' />
+                            <a role='button' href='/'><img className='mb-0' src={llgs} width='25%' alt='live laugh goon shred' /></a>
                         </div>        
                         <a
                             role='button'
@@ -19,9 +19,9 @@ const Footer = () => {
                         <a
                             role='button'
                             className='btn btn-social-icon btn-dark mb-2'
-                            href='sms:12156224191'
+                            href='https://www.youtube.com/channel/UCRKWtdPgPRZtaDDuXxzz8Ag'
                             target='new_window'
-                        ><i className='fa fa-comments' /></a>{' '}
+                        ><i className='fa fa-youtube' /></a>{' '}
                         <a
                             role='button'
                             className='btn btn-social-icon btn-dark mb-2'

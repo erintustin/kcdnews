@@ -31,7 +31,7 @@ const EventDetail = ({event}) => {
                         <div className='content-center my-2'>{description}</div>
                         <div className='content-center my-2'>{details}</div>
                         <div className="rainbow-text">Tickets available at 
-                            <a href={ticketslink} target="new_window" className="rainbow-text"> {ticketslocation}</a></div>
+                            <a role='button' href={ticketslink} target="new_window" className="rainbow-text"> {ticketslocation}</a></div>
                     </Col>
                 </Row>
                 <Row>
