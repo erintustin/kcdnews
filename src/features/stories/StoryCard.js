@@ -7,9 +7,9 @@ const StoryCard = ({story}) => {
 const { url } = story;
 
 return (
-      <Card width='100%'>
-        <InstagramEmbed url={url} width='100%'/>
-        </Card>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <InstagramEmbed className='insta-embed' url={url} width='100%'/>
+        </div>
 );
 
 };

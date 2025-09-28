@@ -11,7 +11,6 @@ import Instafeed from '../components/Instafeed';
 const HomePage = () => {
     return(
        <Container>
-        {/* News Page Layout*/}
         <Row className="mt-5 mb-4 align-items-stretch">
           <Col md="8" className="d-flex flex-column">
             <Intro />
@@ -22,12 +21,9 @@ const HomePage = () => {
             </div>
           </Col>
           <Col md="4" className="d-flex flex-column">
-            {/* Pages */}
             <PageLinks />
           </Col>
         </Row>
-
-        {/* --- Grid of News Cards Section --- */}
         <h3 className="my-4" style={{color:'white'}}>Latest Stories</h3>
         <Row>
           <Instafeed />

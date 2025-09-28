@@ -13,14 +13,12 @@ const Instafeed = () => {
                 {stories.map((story) => {
                     return(
                         <Col 
-                            style={{maxWidth:350}}
+                            style={{minWidth:350}}
                             md='4'
                             sm ='6'
                             className='mt-2 mb-2 mx-auto' 
                             key={story.id}>
-                            <CardGroup>
                             <StoryCard story={story} />
-                            </CardGroup>
                         </Col>
                     );
                 })}
