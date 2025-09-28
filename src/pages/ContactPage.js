@@ -14,7 +14,7 @@ const ContactPage = () => {
                         <div className="overlay-bg"></div>
                         <div className="overlay-content">
                             <h2 className="h2"> WE WOULD LOVE TO HEAR FROM YOU</h2>
-                            <p className='content-center'>For Booking, Media, and all other Inquiries</p>
+                            <p className='content-center'>For Booking, Media, && all other Inquiries</p>
                             <p className='content-center'>
                                 <a
                                 role='button'
