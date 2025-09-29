@@ -27,28 +27,39 @@ import porchfest25_11 from '../images/events/porchfest25/porchfest25-11.png';
 import porchfest25_12 from '../images/events/porchfest25/porchfest25-12.png';
 import wppf2025flyer from '../images/events/flyers/wppf2025flyer.jpg';
 import abyssinia05252025flyer from '../images/events/flyers/Abyssinia05252025flyer.jpg';
+import linneas1 from '../images/events/linneasabyssinia/tuggyabyss.jpg';
+import linneas2 from '../images/events/linneasabyssinia/tuggylinnea.jpg';
+import linneas3 from '../images/events/linneasabyssinia/axie-mays_abyss-1.jpg';
+import linneas4 from '../images/events/linneasabyssinia/axie-mays_abyss-2.jpg';
+import linneas5 from '../images/events/linneasabyssinia/axie-mays_abyss-3.jpg';
+import linneas6 from '../images/events/linneasabyssinia/axie-mays_abyss-4.jpg';
+import linneas7 from '../images/events/linneasabyssinia/axie-mays_abyss-5.jpg';
+import linneas8 from '../images/events/linneasabyssinia/axie-mays_abyss-6.jpg';
+import linneas9 from '../images/events/linneasabyssinia/axie-mays_abyss-7.jpg';
+import linneas10 from '../images/events/linneasabyssinia/axie-mays_abyss-8.jpg';
+import linneas11 from '../images/events/linneasabyssinia/axie-mays_abyss-9.jpg';
+import linneas12 from '../images/events/linneasabyssinia/axie-mays_abyss-10.jpg';
+import linneas13 from '../images/events/linneasabyssinia/axie-mays_abyss-11.jpg';
+import linneas14 from '../images/events/linneasabyssinia/axie-mays_abyss-12.jpg';
 import war3houseflyer from '../images/events/flyers/warehouse3flyer.jpg';
 import hhhflyer from '../images/events/flyers/hhhflyer.jpg';
 import kohshowflyer from '../images/events/flyers/kohshow.jpg';
 import centuryflyer from '../images/events/flyers/century.jpg';
+import facefest24flyer from '../images/events/flyers/facefest24flyer.jpg';
 
 export const EVENTS = [
 {
     uri:'jasmine4twcl',
-    name: 'SUPPORTING JASMINE.4.T',
+    name: 'JASMINE.4.T WORLD TRANARCHY TOUR',
     location:'The Lounge at World Cafe Live, Philadelphia, PA',
     date:'September 30, 2025',
     flyer:jasmine4tflyer,
     photos:[
-         {
-          "src": jasmine4tflyer2, 
-          "alt": "additional flyer for jasmine4t at WCL", 
-          "credit": "",
-          "id": 1
-        },
-    ],
+        {"src": jasmine4tflyer2, "alt": "additional flyer for jasmine4t at WCL", "credit": "", "id": 1},
+        ],
     youtube:[],
     reels:[],
+    youtube: [],
     type:'upcoming',         
     description: 'Supporting Jasmine.4.T on the Philly stop of her TRANARCHY WORLD TOUR',
     details: 'DOORS 6PM - MUSIC 8PM',
@@ -62,25 +73,13 @@ export const EVENTS = [
     date:'September 6, 2025',
     flyer:kindaalrightfarewellflyer,
     photos:[
-        {
-          "src": kindaalrightfarewellphoto2, 
-          "alt": "Kurt Cobain's Dad on stage at PhilaMOCA with an episode of Pokemon projected behind them", 
-          "credit": "Photo by Dallas Scott",
-          "id": 1
-        },
-        {
-          "src": kindaalrightfarewellphoto1, 
-          "alt": "Kurt Cobain's Dad on stage at PhilaMOCA with an episode of Pokemon projected behind them", 
-          "credit": "Photo by Dallas Scott",
-          "id": 2
-        }
-    ],
+        {"src": kindaalrightfarewellphoto2, "alt": "Kurt Cobain's Dad on stage at PhilaMOCA with an episode of Pokemon projected behind them", "credit": "Photo by Dallas Scott", "id": 1},
+        {"src": kindaalrightfarewellphoto1, "alt": "Kurt Cobain's Dad on stage at PhilaMOCA with an episode of Pokemon projected behind them", "credit": "Photo by Dallas Scott", "id": 2}
+        ],
     reels:[
-        {
-            id: 1,
-            url: 'https://www.instagram.com/_kurtcobainsdad/reel/DOUwjBCjj3G/?hl=en'
-        }
-],
+        {id: 1, url: 'https://www.instagram.com/_kurtcobainsdad/reel/DOUwjBCjj3G/?hl=en'}
+        ],
+    youtube: [],
     type:'past',         
     description: 'Joining FutureBeer and the Night Owls && Good Game along with Kinda Alright for their farewell show.'
 },
@@ -91,20 +90,10 @@ export const EVENTS = [
     date:'August 23, 2025',
     flyer:hoagieconflyer,
     photos:[
-        {
-          "src": babykittenzjam1, 
-          "alt": 'Erin and Tuggy eating hoagies', 
-          "credit": '',
-          "id": 1
-        },
-        {
-          "src": babykittenzjam2, 
-          "alt": 'Erin, MJ, and Tuggy at Furrydelphia 2025', 
-          "credit": '',
-          "id": 2
-        }
-    ],
-    reels: [],
+        {"src": babykittenzjam1, "alt": 'Erin and Tuggy eating hoagies', "credit": '', "id": 1},
+        { "src": babykittenzjam2, "alt": 'Erin, MJ, and Tuggy at Furrydelphia 2025', "credit": '', "id": 2}
+        ],
+    reels: [{id: 1, url:'https://www.instagram.com/_kurtcobainsdad/reel/DPIPRJfjqnR/?hl=en'}],
     youtube: [],
     type:'past',         
     description: 'An all ages jam panel hosted at Furrydelphia 2025'
@@ -116,37 +105,12 @@ export const EVENTS = [
     date:'July 20, 2025',
     flyer: tralfamadore07202025flyer,
     photos:[
-        {
-          "src": tralfjuly251, 
-          "alt": 'Tuggy and MJ in the Tralf backyard', 
-          "credit": '',
-          "id": 1
-        },
-        {
-          "src": tralfjuly252, 
-          "alt": 'Lime Time with Shan && Delaney', 
-          "credit": '',
-          "id": 2
-        },
-         {
-          "src": tralfjuly253, 
-          "alt": 'Tuggy in the tralf backyard lookng regal', 
-          "credit": '',
-          "id": 3
-        },
-         {
-          "src": tralfjuly254, 
-          "alt": 'KCD playing in the Tralf basement', 
-          "credit": '',
-          "id": 4
-        },
-         {
-          "src": tralfjuly255, 
-          "alt": 'KCD at the Tralf', 
-          "credit": '',
-          "id": 5
-        }
-    ],
+        {"src": tralfjuly251, "alt": 'Tuggy and MJ in the Tralf backyard', "credit": '', "id": 1},
+        {"src": tralfjuly252, "alt": 'Lime Time with Shan && Delaney', "credit": '', "id": 2},
+        {"src": tralfjuly253, "alt": 'Tuggy in the tralf backyard lookng regal', "credit": '',"id": 3},
+        {"src": tralfjuly254, "alt": 'KCD playing in the Tralf basement', "credit": '', "id": 4},
+        {"src": tralfjuly255, "alt": 'KCD at the Tralf', "credit": '', "id": 5}
+        ],
     reels: [],
     youtube: [],
     type:'past',         
@@ -177,19 +141,37 @@ export const EVENTS = [
          {id: 2, url: 'https://www.instagram.com/_kurtcobainsdad/reel/DKXlm5EJLHj/?hl=en'},
          {id: 3, url: 'https://www.instagram.com/_kurtcobainsdad/reel/DK-ryuVxb_2/?hl=en'},
     ],
+    youtube: [],
     type:'past',         
     description: 'An all day outdoor event featuring local bands, drag performances, and food for the community'
 },
 {
     uri:'linneasgardenabyssinia',
-    name: "SUPPORTING LINNEA'S GARDEN",
+    name: "LINNEA'S GARDEN SPRING TOUR",
     location:'Upstairs at Abyssinia, Philadelphia, PA',
     date:'May 25, 2025',
     flyer: abyssinia05252025flyer,
     photos:[
-      
+         {"src": linneas1, "alt": 'Tuggy in front of Abyssinia', "credit": '', "id": 1},
+         {"src": linneas2, "alt": 'Tuggy  and Linnea', "credit": '', "id": 2},
+         {"src": linneas3, "alt": 'KCD Playing at Upstairs at Abyssinia', "credit": 'Photo by Axie Mays', "id": 3},
+         {"src": linneas4, "alt": 'KCD Playing at Upstairs at Abyssinia', "credit": 'Photo by Axie Mays', "id": 4},
+         {"src": linneas5, "alt": 'KCD Playing at Upstairs at Abyssinia', "credit": 'Photo by Axie Mays', "id": 5},
+         {"src": linneas6, "alt": 'KCD Playing at Upstairs at Abyssinia', "credit": 'Photo by Axie Mays', "id": 6},
+         {"src": linneas7, "alt": 'KCD Playing at Upstairs at Abyssinia', "credit": 'Photo by Axie Mays', "id": 7},
+         {"src": linneas8, "alt": 'KCD Playing at Upstairs at Abyssinia', "credit": 'Photo by Axie Mays', "id": 8},
+         {"src": linneas9, "alt": 'KCD Playing at Upstairs at Abyssinia', "credit": 'Photo by Axie Mays', "id": 9},
+         {"src": linneas10, "alt": 'KCD Playing at Upstairs at Abyssinia', "credit": 'Photo by Axie Mays', "id": 10},
+         {"src": linneas11, "alt": 'KCD Playing at Upstairs at Abyssinia', "credit": 'Photo by Axie Mays', "id": 11},
+         {"src": linneas12, "alt": 'KCD Playing at Upstairs at Abyssinia', "credit": 'Photo by Axie Mays', "id": 12},
+         {"src": linneas13, "alt": 'KCD Playing at Upstairs at Abyssinia', "credit": 'Photo by Axie Mays', "id": 13},
+         {"src": linneas14, "alt": 'KCD Playing at Upstairs at Abyssinia', "credit": 'Photo by Axie Mays', "id": 14}
     ],
-    type:'past',         
+    type:'past',
+    reels: [
+         {id: 1, url: 'https://www.instagram.com/_kurtcobainsdad/reel/DKJVCkrNbSJ/?hl=en',}
+        ],
+    youtube: [],  
     description: "Supporting Linnea's Garden on the Philly stop of their spring tour"
 },
 {
@@ -201,6 +183,8 @@ export const EVENTS = [
     photos:[
      
     ],
+    reels: [],
+    youtube: [],
     type:'past',         
     description: 'Up the alley with some metal dudes'
 },
@@ -212,6 +196,8 @@ export const EVENTS = [
     flyer:hhhflyer,
     photos:[
     ],
+    reels:[],
+    youtube:[],
     type:'past',         
     description: 'Monthly Fund fundraiser for Homies Helping Homies, a Philly-based mutual aid collective'
 },
@@ -223,6 +209,8 @@ export const EVENTS = [
     flyer:kohshowflyer,
     photos:[
     ],
+    reels: [],
+    youtube:[],
     type:'past',         
     description: 'Streaming Live from a basement in Wilmington, DE'
 },
@@ -234,7 +222,22 @@ export const EVENTS = [
     flyer:centuryflyer,
     photos:[
     ],
+    reels:[],
+    youtube:[],
     type:'past',         
     description: 'Dive bar show with our friends Bagel'
 },
+{
+    uri:'facefest24',
+    name: 'FACE FEST 2024',
+    location:'Tralfamadore, Philadelphia, PA',
+    date:'November 16, 2024',
+    flyer: facefest24flyer,
+    photos:[
+    ],
+    reels:[],
+    youtube:[],
+    type:'past',         
+    description: 'An all-day mutual aid fundraiser to pay for gender affirming care for trans people, hosted by Tralfamadore. '
+}
 ];

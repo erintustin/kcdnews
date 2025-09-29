@@ -15,7 +15,7 @@ const EventPhotoCard = ({photo}) => {
         />
         <CardImgOverlay className="d-flex flex-column justify-content-end">
         <CardText>
-            <small className="content">
+            <small className="content-smaller" style={{color:'lightgray'}}>
             {credit}
             </small>
         </CardText>
