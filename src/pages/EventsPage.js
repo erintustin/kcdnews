@@ -19,8 +19,8 @@ const EventsPage = () => {
                 </Col>
             </Row>
             <Row className='mb-5'>
-                {upcomingevents.map((upcomingevent) => {
-                    return(
+                {upcomingevents && upcomingevents.length > 0 ? (
+                upcomingevents.map((upcomingevent) => (
                         <Col md='4'
                             sm ='8'
                             className='mt-2 mb-2 mx-auto' 
@@ -29,8 +29,12 @@ const EventsPage = () => {
                             <EventCard event={upcomingevent} />
                             </CardGroup>
                         </Col>
-                    );
-                })}
+                    ))
+        ) : (
+             <Col>
+                <p className="content-center">Check back soon for more upcoming events</p>
+            </Col>
+        )}
             </Row>
              <Row className='mb-5'>
                 <Col className='mx-auto'>

@@ -1,6 +1,9 @@
 
 import jasmine4tflyer from '../images/events/flyers/jasmine4tflyer1.jpg';
 import jasmine4tflyer2 from '../images/events/flyers/jasmine4tflyer2.jpg';
+import wcl251 from '../images/events/wclsep25/wcl25-1.jpg';
+import wcl252 from '../images/events/wclsep25/wcl25-2.jpg';
+import wcl253 from '../images/events/wclsep25/wcl25-3.jpg';
 import kindaalrightfarewellflyer from '../images/events/flyers/philamoca09062025flyer.jpg';
 import kindaalrightfarewellphoto1 from '../images/events/kindaalrightfarewell/kcdphilamocapokemon.jpg';
 import kindaalrightfarewellphoto2 from '../images/events/kindaalrightfarewell/squirtlesquad.jpg';
@@ -55,12 +58,15 @@ export const EVENTS = [
     date:'September 30, 2025',
     flyer:jasmine4tflyer,
     photos:[
+        {"src": wcl251, "alt":"KCD at World Cafe Life September 2025", "credit": "", "id": 2},
+        {"src": wcl252, "alt":"KCD at World Cafe Life September 2025", "credit": "", "id": 3},
+        {"src": wcl253, "alt":"KCD at World Cafe Life September 2025", "credit": "", "id": 4},
         {"src": jasmine4tflyer2, "alt": "additional flyer for jasmine4t at WCL", "credit": "", "id": 1},
         ],
     youtube:[],
     reels:[],
     youtube: [],
-    type:'upcoming',         
+    type:'past',         
     description: 'Supporting Jasmine.4.T on the Philly stop of her TRANARCHY WORLD TOUR',
     details: 'DOORS 6PM - MUSIC 8PM',
     ticketslocation: "WORLDCAFELIVE.ORG",
