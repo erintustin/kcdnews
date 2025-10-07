@@ -1,4 +1,8 @@
 export const STORIES = [
+     {
+    id: 8,
+    url:'https://www.instagram.com/_kurtcobainsdad/p/DPUquFQDuTF/?hl=en'
+},
     {
     id: 7,
     url:'https://www.instagram.com/_kurtcobainsdad/reel/DPIPRJfjqnR/?hl=en'
