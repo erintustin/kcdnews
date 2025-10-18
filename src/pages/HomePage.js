@@ -12,6 +12,11 @@ const HomePage = () => {
        <Container>
         <Row className="mt-5 mb-4 align-items-stretch">
           <Col md="8" className="d-flex flex-column">
+          <div className="marquee-container mb-3">
+            <div className="marquee-content">
+              <a href="/music" className='rainbow-text'><h2 className='rainbow-text'>BETTING ON SPORTS EP NOW AVAILABLE! - CLICK HERE TO GET THE SCOOP</h2></a>
+            </div>
+            </div>
             <Intro />
             <div className="marquee-container mb-3">
             <div className="marquee-content">
