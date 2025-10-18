@@ -9,7 +9,7 @@ import bos3 from '../app/assets/images/music/anklepitsign.jpg';
 import bos4 from '../app/assets/images/music/stephpit.jpg';
 import bos5 from '../app/assets/images/music/erinmjpit.jpg';
 import bos6 from '../app/assets/images/music/bettingonsportsdecoy.jpg';
-
+import { YouTubeEmbed } from 'react-social-media-embed';
 const MusicPage = () => {
     return(
         <>
@@ -27,6 +27,9 @@ const MusicPage = () => {
                      <Button role='button' className='m-2'color='primary' href='https://b4cd04ef-f212-4c3d-a083-6dd11fb45639.paylinks.godaddy.com/bettingonsports-ep-digital' target='new'>
                         Get Digital Download</Button>
                     </div>
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
+  <YouTubeEmbed url="https://www.youtube.com/shorts/qwgScUi6LNs" width={325} height={220} />
+</div>
                 </Col>
             </Row>
             <Row>
