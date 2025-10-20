@@ -1,8 +1,6 @@
 import { Container, Row, Col, Button } from 'reactstrap';
 import SubHeader from '../components/SubHeader';
-import itspete from '../app/assets/images/music/petesurprised.png';
 import albumart1 from '../app/assets/images/music/BOScover.png';
-import albumart2 from '../app/assets/images/music/BOSbackcover.png';
 import bos1 from '../app/assets/images/music/recordingpit.jpg';
 import bos2 from '../app/assets/images/music/tuggypit.jpg';
 import bos3 from '../app/assets/images/music/anklepitsign.jpg';
@@ -19,17 +17,19 @@ const MusicPage = () => {
                 <Col className='mx-auto mb-2'>
                    <div className='content-center'>
                     <h1 className='h1'>BETTING ON SPORTS</h1>
-                     <img src={albumart1} alt="betting on sports album art" width="50%"/>
+                     <img src={albumart1} alt="betting on sports album art" width="80%"/>
                     <br></br>
                     <h2 className='h2'>our debut EP is available now!</h2>
-                    <Button role='button' className='m-2'color='primary' href='https://b4cd04ef-f212-4c3d-a083-6dd11fb45639.paylinks.godaddy.com/bettingonsports-ep-cd' target='new'>
-                        Get on CD</Button>
-                     <Button role='button' className='m-2'color='primary' href='https://b4cd04ef-f212-4c3d-a083-6dd11fb45639.paylinks.godaddy.com/bettingonsports-ep-digital' target='new'>
-                        Get Digital Download</Button>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
-  <YouTubeEmbed url="https://www.youtube.com/shorts/qwgScUi6LNs" width={325} height={220} />
-</div>
+                        <YouTubeEmbed url="https://www.youtube.com/shorts/qwgScUi6LNs" width={325} height={220} />
+                    </div>
+                    <div>
+                        <Button role='button' className='m-2'color='primary' href='https://b4cd04ef-f212-4c3d-a083-6dd11fb45639.paylinks.godaddy.com/bettingonsports-ep-cd' target='new'>
+                        Get on CD</Button>
+                        <Button role='button' className='m-2'color='primary' href='#streaming'>
+                        Stream Now!</Button>
+                    </div>
                 </Col>
             </Row>
             <Row>
@@ -46,16 +46,18 @@ const MusicPage = () => {
                 </Col>
             </Row>
              <Col className='mx-auto mb-2'>
-                <h2 className='h2'>How to Listen</h2>
-                 <img src={itspete} alt="betting on sports album art" width="75%"/>  
+                <h2 id='streaming' className='rainbow-text'>Now Streaming Live on KCD News</h2>
                 <div className='content-smaller mb-3'>
-                    We have opted not to relase our EP on commercial streaming platforms, but we would still love to share it with you!<br></br>
-                    We will be streaming it ourselves on our site and social media soon so stay tuned!<br></br>
-                    In the meantime, Betting On Sports is available for digital download (pay what you want) and on CD for $6.00 (+shipping if applicable)<br></br>
-                    You will receive access to a cloud drive containing the digital files upon purchase.<br></br>
-                    Thank you for supporting independent music!
+                    <iframe 
+                    src="https://samply.app/embed/xpdJnVfwc9MnIgpLQu8U?si=6A0sW5CN1DMZooIOYBmFHUN4sNF2" 
+                    frameborder="0"
+                    allowtransparency="true"
+                    style={{width: '100%', borderRadius: '16px', border: '1px solid rgba(255, 255, 255, 0.12)'}}
+                    ></iframe>
+
+                    We have opted not to relase our EP on commercial streaming platforms. Streaming available only on KCD.NEWS!<br></br>
+                    Thank you for supporting independent music and local gay news!
                 </div>
-                 
                 </Col>
             <Row>
                 <Col xs='4'><img className='img-fluid square-element mb-4' src={bos1}></img></Col>
@@ -67,8 +69,11 @@ const MusicPage = () => {
             </Row>
             <Row>
                 <h1 className='h1'>
-                    Stay tuned for info about our release party and how to stream Betting on Sports!
+                    Stay tuned for info about our Betting on Sports release party!
                 </h1>
+
+
+
             </Row>
         </Container>
     </>

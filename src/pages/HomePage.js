@@ -14,9 +14,18 @@ const HomePage = () => {
           <Col md="8" className="d-flex flex-column">
           <div className="marquee-container mb-3">
             <div className="marquee-content">
-              <a href="/music" className='rainbow-text'><h2 className='rainbow-text'>BETTING ON SPORTS EP NOW AVAILABLE! - CLICK HERE TO GET THE SCOOP</h2></a>
+              <a href="/music" className='rainbow-text'><h2 className='rainbow-text'>EXCLUSIVE! BETTING ON SPORTS NOW STREAMING LIVE-ONLY ON KCD.NEWS! EXCLUSIVE! BETTING ON SPORTS NOW STREAMING LIVE-ONLY ON KCD.NEWS! </h2></a>
             </div>
-            </div>
+          </div>
+          <div className='content-smaller mb-3'>
+                    <iframe 
+                    src="https://samply.app/embed/xpdJnVfwc9MnIgpLQu8U?si=6A0sW5CN1DMZooIOYBmFHUN4sNF2" 
+                    frameborder="0"
+                    allowtransparency="true"
+                    style={{width: '100%', borderRadius: '16px', border: '1px solid rgba(255, 255, 255, 0.12)'}}
+                    ></iframe>
+                   <a role="button" className='rainbow-text' href='https://b4cd04ef-f212-4c3d-a083-6dd11fb45639.paylinks.godaddy.com/bettingonsports-ep-cd' target='new_window'>ALSO AVAILABLE ON COMPACT DISC</a>
+                </div>
             <Intro />
             <div className="marquee-container mb-3">
             <div className="marquee-content">

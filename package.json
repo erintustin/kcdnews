@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.9.0",
+    "@sina_byn/re-audio": "^1.1.1",
     "bootstrap": "^5.3.8",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "@rsbuild/core": "^1.5.12",
-    "@rsbuild/plugin-react": "^1.4.1"
+    "@rsbuild/plugin-react": "^1.4.1",
+    "typescript": "^5.9.3"
   }
 }
