@@ -1,6 +1,25 @@
 export const STORIES = [
      
-    
+    {
+    id: 15,
+    url:'https://www.instagram.com/_kurtcobainsdad/reel/DQYUMkzjvij/?hl=en'
+},
+    {
+    id: 14,
+    url:'https://www.instagram.com/_kurtcobainsdad/reel/DQXJHshDldD/?hl=en'
+},
+    {
+    id: 13,
+    url:'https://www.instagram.com/_kurtcobainsdad/reel/DQQZCS8jsbq/?hl=en'
+},
+    {
+    id: 12,
+    url:'https://www.instagram.com/_kurtcobainsdad/reel/DQIiJpcjlHv/?hl=en'
+},
+    {
+    id: 11,
+    url:'https://www.instagram.com/_kurtcobainsdad/reel/DQDVBkoDnJ-/?hl=en'
+},
     {
     id: 10,
     url:'https://www.instagram.com/_kurtcobainsdad/reel/DP781TpjHlQ/?hl=en'
