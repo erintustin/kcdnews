@@ -49,7 +49,7 @@ import hhhflyer from '../images/events/flyers/hhhflyer.jpg';
 import kohshowflyer from '../images/events/flyers/kohshow.jpg';
 import centuryflyer from '../images/events/flyers/century.jpg';
 import facefest24flyer from '../images/events/flyers/facefest24flyer.jpg';
-import bettingonsportsreleasesavethedate from '../images/events/flyers/bettingonsportsreleasesavethedate.png'
+import bettingonsportsreleasesavethedate from '../images/events/flyers/bosreleasesavethedate.png'
 
 export const EVENTS = [
 {
@@ -66,7 +66,7 @@ export const EVENTS = [
     description: 'Celebrating the release of our EP with performances by Cutie Riot and Double Dose',
     details: 'Stay tuned for more details coming soon!',
     ticketslocation: "door - NOTAFLOF",
-    ticketslink: 'https://www.etix.com/ticket/p/46873705/jasmine4t-wkurt-cobains-dad-philadelphia-the-lounge-at-world-cafe-live?partner_id=240&_ga=2.224394139.1676376206.1758942390-1559739147.1758942389'
+    ticketslink: ''
 },
 {
     uri:'jasmine4twcl',
