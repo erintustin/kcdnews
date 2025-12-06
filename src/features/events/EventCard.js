@@ -1,8 +1,8 @@
-import { Card, CardImg, CardSubtitle, ButtonGroup, Button, CardBody } from 'reactstrap';
+import { Card, CardImg, CardSubtitle, ButtonGroup, Button, CardBody, CardText } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 const EventCard = ({event}) => {
-const { name, flyer, description, uri } = event;
+const { name, flyer, location, uri } = event;
 
 if (event.type === 'upcoming') {
 return (
@@ -15,7 +15,8 @@ return (
                                 alt={`Flyer for ${name}`}
                         /> 
                 </Link>
-                <CardSubtitle className='p-2'>{description}</CardSubtitle>
+                <CardSubtitle className='p-2'>{name}</CardSubtitle>
+                <CardText className='p-0 m-0 text-center content-smaller'>{location}</CardText>
            </CardBody>
               <ButtonGroup className='mx-auto m-3'>
                         <Button

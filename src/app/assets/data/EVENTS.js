@@ -49,10 +49,12 @@ import hhhflyer from '../images/events/flyers/hhhflyer.jpg';
 import kohshowflyer from '../images/events/flyers/kohshow.jpg';
 import centuryflyer from '../images/events/flyers/century.jpg';
 import facefest24flyer from '../images/events/flyers/facefest24flyer.jpg';
-import twolocalsflyer from '../images/events/flyers/twolocalsflyer.jpg'
+import twolocalsflyer from '../images/events/flyers/twolocalsflyer.jpg';
+import twelvestepsteaser from '../images/events/flyers/12stepsteaser.jpg';
+import valentineshowteaser from '../images/events/flyers/valentineshowteaser.jpg';
 
 export const EVENTS = [
-{
+    {
     uri:'bettingonsportsreleaseshow',
     name: 'BETTING ON SPORTS Release Celebration',
     location:"Two Locals Brewing, Philadelphia, PA",
@@ -67,6 +69,38 @@ export const EVENTS = [
     details: 'Music at 8PM, ADA accessible!',
     ticketsinfo: "FREE SHOW - please support the brewery!",
     ticketslink: '/events/bettingonsportsreleaseshow'
+},
+{
+    uri:'12stepsjan26',
+    name: '12 STEPS SHOW w/ the Decent OK',
+    location:"12 Steps Down, Philadelphia, PA",
+    date:'January 17, 2026',
+    flyer: twelvestepsteaser,
+    photos:[],
+    youtube:[],
+    reels:[],
+    youtube: [],
+    type:'upcoming',         
+    description: "Soon to be announced 1/17/26 show at the offical South Philly Bar of Kurt Cobain's Dad",
+    details: '',
+    ticketsinfo: "",
+    ticketslink: ''
+},
+{
+    uri:'valentines2026',
+    name: 'Valentines Day Show with Miss Olivia & Weirdo',
+    location:"Silver Age HQ, Philadelphia, PA",
+    date:'February 7, 2026',
+    flyer: valentineshowteaser,
+    photos:[],
+    youtube:[],
+    reels:[],
+    youtube: [],
+    type:'upcoming',         
+    description: "Soon to be announced 2/7/26 Valentines Celebration with Miss Olivia & Weirdo at Silver Age HQ",
+    details: '',
+    ticketsinfo: "",
+    ticketslink: ''
 },
 {
     uri:'jasmine4twcl',
