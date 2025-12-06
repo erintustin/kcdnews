@@ -2,7 +2,7 @@ import { Container, Row, Col, ButtonGroup, Button } from 'reactstrap';
 import EventMedia from './EventMedia';
 
 const EventDetail = ({event}) => {
-    const {location, date, type, flyer, details, ticketslink, ticketslocation, description } = event;
+    const {location, date, type, flyer, details, ticketslink, ticketsinfo, description } = event;
 
     if (type === 'past') {
         return (
@@ -30,8 +30,8 @@ const EventDetail = ({event}) => {
                         <img src={flyer} alt='${name} Flyer' className='img-fluid' />
                         <div className='content-center my-2'>{description}</div>
                         <div className='content-center my-2'>{details}</div>
-                        <div className="rainbow-text">Tickets available at 
-                            <a role='button' href={ticketslink} target="new_window" className="rainbow-text"> {ticketslocation}</a></div>
+                        <div className="rainbow-text"> 
+                            <a role='button' href={ticketslink} target="new_window" className="rainbow-text"> {ticketsinfo}</a></div>
                     </Col>
                 </Row>
                 <Row>
