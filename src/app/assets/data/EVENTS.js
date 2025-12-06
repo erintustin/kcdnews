@@ -63,7 +63,7 @@ export const EVENTS = [
     reels:[],
     youtube: [],
     type:'upcoming',         
-    description: "Celebrating the release of our EP at Philadelphia's first black-owned brewery <br> with performances by Cutie Riot and Double Dose",
+    description: "Celebrating the release of our EP at Philadelphia's first black-owned brewery with performances by Cutie Riot and Double Dose",
     details: 'Music at 8PM, ADA accessible!',
     ticketsinfo: "FREE SHOW - please support the brewery!",
     ticketslink: '/events/bettingonsportsreleaseshow'
