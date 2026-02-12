@@ -50,10 +50,71 @@ import kohshowflyer from '../images/events/flyers/kohshow.jpg';
 import centuryflyer from '../images/events/flyers/century.jpg';
 import facefest24flyer from '../images/events/flyers/facefest24flyer.jpg';
 import twolocalsflyer from '../images/events/flyers/twolocalsflyer.jpg';
-import twelvestepsteaser from '../images/events/flyers/12stepsteaser.jpg';
-import valentineshowteaser from '../images/events/flyers/valentineshowteaser.jpg';
+import stepsjan26flyer from '../images/events/flyers/12stepsjan26flyer.png';
+import holidayhangover1 from '../images/events/stepsjan26/holidayhangover1.jpg';
+import holidayhangover2 from '../images/events/stepsjan26/holidayhangover2.jpg';
+import holidayhangover3 from '../images/events/stepsjan26/holidayhangover3.jpg';
+import holidayhangover4 from '../images/events/stepsjan26/holidayhangover4.jpg';
+import holidayhangover5 from '../images/events/stepsjan26/holidayhangover5.jpg';
+import silverageciaflyer from '../images/events/flyers/silverageciaflyer.jpg';
+import galentines1 from '../images/events/silveragefeb26/galentines8.jpg';
+import galentines2 from '../images/events/silveragefeb26/galentines4.jpg';
+import galentines3 from '../images/events/silveragefeb26/galentines1.jpg';
+import galentines4 from '../images/events/silveragefeb26/galentines6.jpg';
+import galentines5 from '../images/events/silveragefeb26/galentines9.jpg';
+import galentines6 from '../images/events/silveragefeb26/galentines7.jpg';
+import galentines7 from '../images/events/silveragefeb26/galentines5.jpg';
+import galentines8 from '../images/events/silveragefeb26/galentines3.jpg';
+import galentines9 from '../images/events/silveragefeb26/galentines2.jpg';
 
 export const EVENTS = [
+    {
+    uri:'silveragefeb2026',
+    name: 'Cozy Galentines Show with our girlies',
+    location:"Silver Age HQ, Philadelphia, PA",
+    date:'February 7, 2026',
+    flyer: silverageciaflyer,
+    photos:[
+        {"src": galentines1, "alt":"KCD at SilverAgeHQ February 2026", "credit": "Kyle Fok", "id": 1},
+        {"src": galentines2, "alt":"KCD at SilverAgeHQ February 2026", "credit": "Kyle Fok", "id": 2},
+        {"src": galentines3, "alt":"KCD at SilverAgeHQ February 2026", "credit": "Kyle Fok", "id": 3},
+        {"src": galentines4, "alt":"KCD at SilverAgeHQ February 2026", "credit": "Kyle Fok", "id": 4},
+        {"src": galentines5, "alt":"KCD at SilverAgeHQ February 2026", "credit": "Kyle Fok", "id": 5},
+        {"src": galentines6, "alt":"KCD at SilverAgeHQ February 2026", "credit": "Kyle Fok", "id": 6},
+        {"src": galentines7, "alt":"KCD at SilverAgeHQ February 2026", "credit": "Kyle Fok", "id": 7},
+        {"src": galentines8, "alt":"KCD at SilverAgeHQ February 2026", "credit": "Kyle Fok", "id": 8},
+        {"src": galentines9, "alt":"KCD at SilverAgeHQ February 2026", "credit": "Kyle Fok", "id": 9}
+    ],
+    youtube:[],
+    reels:[],
+    youtube: [],
+    type:'past',         
+    description: "Galentines vibes featuring Special Hug && Miss Olivia, curated by Weirdo",
+    details: '',
+    ticketsinfo: "$10 NOTAFLOF - DM for Address",
+    ticketslink: '/events/silveragefeb2026'
+},
+    {
+    uri:'12stepsjan26',
+    name: 'Holiday Hangover',
+    location:"12 Steps Down, Philadelphia, PA",
+    date:'January 17, 2026',
+    flyer: stepsjan26flyer,
+    photos:[
+        {"src": holidayhangover1, "alt":"KCD at 12 Steps Down Jan 2026", "credit": "", "id": 1},
+        {"src": holidayhangover2, "alt":"KCD at 12 Steps Down Jan 2026", "credit": "", "id": 1},
+        {"src": holidayhangover3, "alt":"KCD at 12 Steps Down Jan 2026", "credit": "", "id": 3},
+        {"src": holidayhangover4, "alt": "KCD at 12 Steps Down Jan 2026", "credit": "", "id": 4},
+        {"src": holidayhangover5, "alt": "KCD down the steps at 12 Steps Down Jan 2026", "credit": "", "id": 5}],
+    youtube:[],
+    reels:[],
+    youtube: [],
+    type:'past',         
+    description: "Dive bar show with Mary Metal && The Decent OK",
+    details: '',
+    ticketsinfo: "FREE SHOW - 21+",
+    ticketslink: '/events/12stepsjan26'
+},
     {
     uri:'bettingonsportsreleaseshow',
     name: 'BETTING ON SPORTS Release Celebration',
@@ -62,45 +123,13 @@ export const EVENTS = [
     flyer: twolocalsflyer,
     photos:[],
     youtube:[],
-    reels:[],
+    reels:[{ id: 1, url:'https://www.instagram.com/_kurtcobainsdad/reel/DSNnefIDoO_/?hl=en'}],
     youtube: [],
-    type:'upcoming',         
+    type:'past',         
     description: "Celebrating the release of our EP at Philadelphia's first black-owned brewery with performances by Cutie Riot and Double Dose",
     details: 'Music at 8PM, ADA accessible!',
     ticketsinfo: "FREE SHOW - please support the brewery!",
     ticketslink: '/events/bettingonsportsreleaseshow'
-},
-{
-    uri:'12stepsjan26',
-    name: '12 STEPS SHOW w/ the Decent OK',
-    location:"12 Steps Down, Philadelphia, PA",
-    date:'January 17, 2026',
-    flyer: twelvestepsteaser,
-    photos:[],
-    youtube:[],
-    reels:[],
-    youtube: [],
-    type:'upcoming',         
-    description: "Soon to be announced 1/17/26 show at the offical South Philly Bar of Kurt Cobain's Dad",
-    details: '',
-    ticketsinfo: "",
-    ticketslink: ''
-},
-{
-    uri:'valentines2026',
-    name: 'Valentines Day Show with Miss Olivia & Weirdo',
-    location:"Silver Age HQ, Philadelphia, PA",
-    date:'February 7, 2026',
-    flyer: valentineshowteaser,
-    photos:[],
-    youtube:[],
-    reels:[],
-    youtube: [],
-    type:'upcoming',         
-    description: "Soon to be announced 2/7/26 Valentines Celebration with Miss Olivia & Weirdo at Silver Age HQ",
-    details: '',
-    ticketsinfo: "",
-    ticketslink: ''
 },
 {
     uri:'jasmine4twcl',
