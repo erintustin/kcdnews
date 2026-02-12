@@ -66,8 +66,26 @@ import galentines6 from '../images/events/silveragefeb26/galentines7.jpg';
 import galentines7 from '../images/events/silveragefeb26/galentines5.jpg';
 import galentines8 from '../images/events/silveragefeb26/galentines3.jpg';
 import galentines9 from '../images/events/silveragefeb26/galentines2.jpg';
+import kcduplugged from '../images/events/flyers/kcdunplugged.jpg';
 
 export const EVENTS = [
+ 
+    {
+    uri:'greenstacoustic',
+    name: 'KCD Unplugged',
+    location:"Green St Cafe, Philadelphia, PA",
+    date:'March 20, 2026',
+    flyer: kcduplugged,
+    photos:[],
+    youtube:[],
+    reels:[],
+    youtube: [],
+    type:'upcoming',         
+    description: "Acoustic Set in South Philly Coffee Shop",
+    details: 'More INFO COMING SOON!',
+    ticketsinfo: "",
+    ticketslink: '/events/greenstacousitic'
+},
     {
     uri:'silveragefeb2026',
     name: 'Cozy Galentines Show with our girlies',
