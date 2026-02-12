@@ -1,5 +1,5 @@
 import { Container, Card, CardImg, CardBody, CardTitle, CardSubtitle, Button } from 'reactstrap'
-import eventsphoto from '../app/assets/images/eventsphoto.jpg';
+import eventsphoto from '../app/assets/images/eventsphoto0.jpg';
 import musicphoto from '../app/assets/images/screamoisgay.jpg';
 import logo from '../app/assets/images/logo-dark.png';
 
