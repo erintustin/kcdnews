@@ -1,5 +1,13 @@
 export const STORIES = [
      {
+    id: 33,
+    url:'https://www.instagram.com/_kurtcobainsdad/p/DV4CdCsmsJk/'
+},
+     {
+    id: 32,
+    url:'https://www.instagram.com/_kurtcobainsdad/p/DVWsHRvkWCg/'
+},
+    {
     id: 31,
     url:'https://www.instagram.com/_kurtcobainsdad/reel/DUj9gZiDnju/?hl=en'
 },  
@@ -19,14 +27,14 @@ export const STORIES = [
     id: 27,
     url:'https://www.instagram.com/_kurtcobainsdad/p/DTZLykOji5P/?hl=en'
 },
-    {
-    id: 26,
-    url:'https://www.instagram.com/_kurtcobainsdad/p/DTZKIgIDYaV/?hl=en'
-},
-    {
-    id: 25,
-    url:'https://www.instagram.com/_kurtcobainsdad/p/DTYe1tLgX7i/?hl=en'
-},
+    // {
+    // id: 26,
+    // url:'https://www.instagram.com/_kurtcobainsdad/p/DTZKIgIDYaV/?hl=en'
+// },
+//     {
+//     id: 25,
+//     url:'https://www.instagram.com/_kurtcobainsdad/p/DTYe1tLgX7i/?hl=en'
+// },
 //     {
 //     id: 24,
 //     url:'https://www.instagram.com/_kurtcobainsdad/reel/DS88p7TDn-P/?hl=en'
