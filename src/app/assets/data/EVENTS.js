@@ -66,14 +66,14 @@ import galentines6 from '../images/events/silveragefeb26/galentines7.jpg';
 import galentines7 from '../images/events/silveragefeb26/galentines5.jpg';
 import galentines8 from '../images/events/silveragefeb26/galentines3.jpg';
 import galentines9 from '../images/events/silveragefeb26/galentines2.jpg';
-import kcduplugged from '../images/events/flyers/kcdunplugged.jpg';
+import kcduplugged from '../images/events/flyers/kcd_unplugged.jpg';
 
 export const EVENTS = [
  
     {
     uri:'greenstacoustic',
     name: 'KCD Unplugged',
-    location:"Green St Cafe, Philadelphia, PA",
+    location:"Greenstreet Coffee Co, Philadelphia, PA",
     date:'March 20, 2026',
     flyer: kcduplugged,
     photos:[],
@@ -81,9 +81,9 @@ export const EVENTS = [
     reels:[],
     youtube: [],
     type:'upcoming',         
-    description: "Acoustic Set in South Philly Coffee Shop",
-    details: 'More INFO COMING SOON!',
-    ticketsinfo: "",
+    description: "Acoustic Set with Lizzie Jo Bella and Mika de la Cruz",
+    details: 'Doors at 5pm, music at 5:30pm. Address is Greenstreet Coffee Co, 1207 S 15th St, Philadelphia, PA',
+    ticketsinfo: "Tix at door $5-10 NOTAFLOF",
     ticketslink: '/events/greenstacousitic'
 },
     {
