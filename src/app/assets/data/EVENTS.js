@@ -67,6 +67,7 @@ import galentines7 from '../images/events/silveragefeb26/galentines5.jpg';
 import galentines8 from '../images/events/silveragefeb26/galentines3.jpg';
 import galentines9 from '../images/events/silveragefeb26/galentines2.jpg';
 import kcduplugged from '../images/events/flyers/kcd_unplugged.jpg';
+import lbpxondaflyer from '../images/events/flyers/lbpxondraflyer.jpg';
 
 export const EVENTS = [
  
@@ -85,6 +86,22 @@ export const EVENTS = [
     details: 'Doors at 5pm, music at 5:30pm. Address is Greenstreet Coffee Co, 1207 S 15th St, Philadelphia, PA',
     ticketsinfo: "Tix at door $5-10 NOTAFLOF",
     ticketslink: '/events/greenstacousitic'
+},
+{
+    uri:'lbpwithxondra',
+    name: 'Spring Fling with Xondra from NYC',
+    location:"Little Big Planet at the Hayes, Philadelphia, PA",
+    date:'April 10, 2026',
+    flyer: lbpxondaflyer,
+    photos:[],
+    youtube:[],
+    reels:[],
+    youtube: [],
+    type:'upcoming',         
+    description: "Presented by Little Big Planet and featuring Nate Roy, Granddogs, and Xondra from NYC",
+    details: '8pm at The Hayes 2nd floor, 1123 Walnut St, Philadelphia, PA - 21+',
+    ticketsinfo: "Tix at door $10-20 NOTAFLOF",
+    ticketslink: '/events/lbpwithxondra'
 },
     {
     uri:'silveragefeb2026',
