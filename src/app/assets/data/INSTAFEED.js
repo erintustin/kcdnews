@@ -1,5 +1,26 @@
 export const STORIES = [
-     {
+    
+    {
+    id: 38,
+    url:'https://www.instagram.com/_kurtcobainsdad/reel/DW_ktPCDqJm/'
+},
+    {
+    id: 37,
+    url:'https://www.instagram.com/_kurtcobainsdad/reel/DWuOglIDw-B/'
+},
+    {
+    id: 36,
+    url:'https://www.instagram.com/_kurtcobainsdad/p/DWhV1YwGoct/'
+},
+    {
+    id: 35,
+    url:'https://www.instagram.com/_kurtcobainsdad/p/DWcHHqcALtX/'
+},
+    {
+    id: 34,
+    url:'https://www.instagram.com/_kurtcobainsdad/p/DWRquAFjuAq/'
+}, 
+    {
     id: 33,
     url:'https://www.instagram.com/_kurtcobainsdad/p/DV4CdCsmsJk/'
 },
@@ -11,22 +32,22 @@ export const STORIES = [
     id: 31,
     url:'https://www.instagram.com/_kurtcobainsdad/reel/DUj9gZiDnju/?hl=en'
 },  
-    {
-    id: 30,
-    url:'https://www.instagram.com/_kurtcobainsdad/p/DUj2F1MDvfu/?hl=en'
-},  
-    {
-    id: 29,
-    url:'https://www.instagram.com/_kurtcobainsdad/reel/DUZkJcljj8b/?hl=en'
-},  
-    {
-    id: 28,
-    url:'https://www.instagram.com/_kurtcobainsdad/p/DTq6ORYDoBa/?hl=en'
-},
-    {
-    id: 27,
-    url:'https://www.instagram.com/_kurtcobainsdad/p/DTZLykOji5P/?hl=en'
-},
+    //     {
+    //     id: 30,
+    //     url:'https://www.instagram.com/_kurtcobainsdad/p/DUj2F1MDvfu/?hl=en'
+    // },  
+    //     {
+    //     id: 29,
+    //     url:'https://www.instagram.com/_kurtcobainsdad/reel/DUZkJcljj8b/?hl=en'
+    // },  
+    //     {
+    //     id: 28,
+    //     url:'https://www.instagram.com/_kurtcobainsdad/p/DTq6ORYDoBa/?hl=en'
+    // },
+    //     {
+    //     id: 27,
+    //     url:'https://www.instagram.com/_kurtcobainsdad/p/DTZLykOji5P/?hl=en'
+    // },
     // {
     // id: 26,
     // url:'https://www.instagram.com/_kurtcobainsdad/p/DTZKIgIDYaV/?hl=en'
