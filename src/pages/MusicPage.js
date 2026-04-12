@@ -61,17 +61,7 @@ const MusicPage = () => {
                     Thank you for supporting independent music and local gay news!
                 </div>
                 </Col>
-              <Row>
-                <div className='content-center'>
-                    <img src={bettingonsportsreleasesavethedate} width="50%"/>
-                </div>
-                <h1 className='h1 mb-5'>
-                    Stay tuned for info about our Betting on Sports release party!
-                </h1>
-
-
-
-            </Row>
+            
             <Row>
                 <Col xs='4'><img className='img-fluid square-element mb-4' src={bos1}></img></Col>
                 <Col xs='4'><img className='img-fluid square-element mb-4' src={bos3}></img></Col>
