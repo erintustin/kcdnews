@@ -34,6 +34,7 @@ const ContactPage = () => {
                                 target='new_window'
                                 ><i className='fa fa-phone' /></a>{' '}
                             </p>
+                            
                         </div>
                     </div>
                 </div>
