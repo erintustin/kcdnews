@@ -7,6 +7,7 @@ import AboutPage from './pages/AboutPage';
 import EventsPage from './pages/EventsPage';
 import ContactPage from './pages/ContactPage';
 import MusicPage from './pages/MusicPage';
+import SMSPolicy from './pages/SMSPolicy';
 import EventDetailPage from './pages/EventDetailPage';
 import { useEffect } from 'react';
 
@@ -41,6 +42,7 @@ function App() {
           <Route path='/events' element={<EventsPage />} />
           <Route path='/contact' element={<ContactPage />} />
           <Route path='/music' element={<MusicPage />} />
+          <Route path='/smsprivacy' element={<SMSPolicy />} />
           <Route
                     path='events/:eventUri'
                     element={<EventDetailPage />}
