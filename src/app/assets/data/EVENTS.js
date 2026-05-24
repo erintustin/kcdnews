@@ -71,8 +71,62 @@ import lbpxondaflyer from '../images/events/flyers/lbpxondraflyer.jpg';
 import greenst1 from '../images/events/greenst/greenst-1.jpg';
 import greenst2 from '../images/events/greenst/greenst-2.jpg';
 import greenst3 from '../images/events/greenst/greenst-3.jpg';
+import mtairyprideflyer from '../images/events/flyers/mtairpride.png';
+import abyssinia062326flyer from '../images/events/flyers/monalisa.png';
+import safeathomeflyer from '../images/events/flyers/safeathome.jpg';
 
 export const EVENTS = [
+
+     {
+    uri:'mtairypride',
+    name: 'Mount Airy Pride Festival',
+    location:"High Point Cafe, Philadelphia, PA",
+    date:'June 14, 2026',
+    flyer: mtairyprideflyer,
+    photos:[],
+    youtube:[],
+    reels:[],
+    youtube: [],
+    type:'upcoming',         
+    description: "Daytime acoustic set between Drag Story Time and a perfomance by our friend Mx'ed Nuts",
+    details: '12pm at High Point Cafe Sunday Market, 6011 Germantown Ave, Philadelphia, PA',
+    ticketsinfo: "Free event as part of the Mount Airy Pride Festival",
+    ticketslink: '/events/mtairypride'
+},
+
+  {
+    uri:'abyssinia062326',
+    name: 'Upstairs at Abyssinia',
+    location:"229 S 45th St, Philadelphia, PA",
+    date:'June 23, 2026',
+    flyer: abyssinia062326flyer,
+    photos:[],
+    youtube:[],
+    reels:[],
+    youtube: [],
+    type:'upcoming',         
+    description: "Tuesday night trans rock featuring our friends Pillow Princess and Mystery Dungeons",
+    details: '7pm, 21+, no outside beverages permitted, our gal Maia is behind the bar',
+    ticketsinfo: "Tickets at door $10-20 NOTAFLOF",
+    ticketslink: '/events/abyssinia062326'
+},
+
+{
+    uri:'safeathome',
+    name: 'SAFE AT HOME',
+    location:"Pentridge Station, West Philadelphia, PA",
+    date:'July 16, 2026',
+    flyer: safeathomeflyer,
+    photos:[],
+    youtube:[],
+    reels:[],
+    youtube: [],
+    type:'upcoming',         
+    description: "We are raising funds for Women Against Abuse in honor of our Erin's 40th birthday! Join us for a night of music, vendors, and raffles in support of Women Against Abuse",
+    details: "Free Entry! Event starts at 5pm at Pentridge Station, 3711 Market St, Philadelphia, PA - Performances by Miss Olivia, Kurt Cobains's Dad, Erin Inchoherent, and Weirdo. Women Against Abuse will be onsight with materials and to accept donations.",
+    ticketsinfo: "If you are intersted in vending or donating to the raffle, please fill out this form or reach us by email or DM! ",
+    ticketslink: 'https://forms.gle/X5wHK5MzLyRtzui3A'
+},
  
     {
     uri:'lbpwithxondra',

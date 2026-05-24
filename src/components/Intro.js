@@ -1,5 +1,5 @@
 import { Container, Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button } from 'reactstrap'
-import mainphoto from '../app/assets/images/kohshow.jpg';
+import mainphoto from '../app/assets/images/kcdtrolley.jpg';
 
 const Intro = () => {
     return(

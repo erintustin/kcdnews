@@ -1,9 +1,14 @@
-import { Container, Button } from 'reactstrap';
+import { Container, Button, Row, Col } from 'reactstrap';
 import SubHeader from '../components/SubHeader';
-import us from '../app/assets/images/meettheband.png';
-import hugs from '../app/assets/images/hugs.jpg';
-import anklepit1 from '../app/assets/images/anklepit1.jpg';
-import anklepit2 from '../app/assets/images/anklepit2.jpg';
+import us from '../app/assets/images/bdaycake.jpg';
+import meetkcd1 from '../app/assets/images/meetkcd1.jpg';
+import meetkcd2 from '../app/assets/images/meetkcd2.jpg';
+import meetkcd3 from '../app/assets/images/meetkcd3.jpg';
+import meetkcd4 from '../app/assets/images/meetkcd4.jpg';
+import meetkcd5 from '../app/assets/images/meetkcd5.jpg';
+import meetkcd6 from '../app/assets/images/meetkcd6.jpg';
+import meetkcd7 from '../app/assets/images/meetkcd7.jpg';
+import meetkcd8 from '../app/assets/images/meetkcd8.jpg';
 
 const AboutPage = () => {
     return(
@@ -16,7 +21,7 @@ const AboutPage = () => {
             </div>
                 <img src={us} width='85%' alt='us' />
             <div className='content-center mb-5'>
-                "What if Kurt Cobain's father had just been four queers in a trench coat?"
+                "What if Kurt Cobain's father had been just any number of queers in a trench coat?"
             </div>
             <div className="px-5">
                 <div className='content'>
@@ -32,12 +37,16 @@ const AboutPage = () => {
                     <Button className='btn-dark' role="button" href="/contact">Reach Out!</Button>
                 </div>
                 </div>
-                <img className='mb-5' src={anklepit1} width='85%' alt='playing in the basement' />
-                <img className='mb-5' src={anklepit2} width='85%' alt='playing in the basement' />
-                <img className='mb-5' src={hugs} width='85%' alt='hugs' />
-                <div className='mb-5 content-center'>
-                    Photos by <a  className="rainbow-text" href="https://nicollemaroulismedia.my.canva.site/portfolio" target='new_window'>Nicolle Maroulis</a>
-                </div>
+                <Row>
+                    <Col md='3'><img className='img-fluid square-element mb-4' src={meetkcd1}></img></Col>
+                    <Col md='3'><img className='img-fluid square-element mb-4' src={meetkcd6}></img></Col>
+                    <Col md='3'><img className='img-fluid square-element mb-4' src={meetkcd7}></img></Col>
+                    <Col md='3'><img className='img-fluid square-element mb-4' src={meetkcd8}></img></Col>
+                    <Col md='3'><img className='img-fluid square-element mb-4' src={meetkcd2}></img></Col>
+                    <Col md='3'><img className='img-fluid square-element mb-4' src={meetkcd3}></img></Col>  
+                    <Col md='3'><img className='img-fluid square-element mb-4' src={meetkcd4}></img></Col>
+                    <Col md='3'><img className='img-fluid square-element mb-4' src={meetkcd5}></img></Col> 
+                </Row>
             </div>
 </Container>
 </>
