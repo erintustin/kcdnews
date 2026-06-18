@@ -74,6 +74,16 @@ import greenst3 from '../images/events/greenst/greenst-3.jpg';
 import mtairyprideflyer from '../images/events/flyers/mtairpride.png';
 import abyssinia062326flyer from '../images/events/flyers/monalisa.png';
 import safeathomeflyer from '../images/events/flyers/safeathome.jpg';
+import mtairypride1 from '../images/events/mtairypride/mtairypride1.jpg';
+import mtairypride2 from '../images/events/mtairypride/mtairypride2.jpg';
+import mtairypride3 from '../images/events/mtairypride/mtairypride3.jpg';
+import mtairypride4 from '../images/events/mtairypride/mtairypride4.jpg';
+import mtairypride5 from '../images/events/mtairypride/mtairypride5.jpg';
+import mtairypride6 from '../images/events/mtairypride/mtairypride6.jpg';
+import mtairypride7 from '../images/events/mtairypride/mtairypride7.jpg';
+import mtairypride8 from '../images/events/mtairypride/mtairypride8.jpg';
+import mtairypride9 from '../images/events/mtairypride/mtairypride9.jpg';
+import mtairypride10 from '../images/events/mtairypride/mtairypride10.jpg';
 
 export const EVENTS = [
 
@@ -83,12 +93,22 @@ export const EVENTS = [
     location:"High Point Cafe, Philadelphia, PA",
     date:'June 14, 2026',
     flyer: mtairyprideflyer,
-    photos:[],
+    photos:[{"src": mtairypride1, "alt":"Mt Airy Pride", "credit": "", "id": 1},
+        {"src": mtairypride4, "alt":"Mt Airy Pride", "credit": "", "id": 4},
+        {"src": mtairypride3, "alt":"Mt Airy Pride", "credit": "", "id": 3},
+        {"src": mtairypride5, "alt":"Mt Airy Pride", "credit": "", "id": 5},
+        {"src": mtairypride6, "alt":"Mt Airy Pride", "credit": "", "id": 6},
+        {"src": mtairypride7, "alt":"Mt Airy Pride", "credit": "", "id": 7},
+        {"src": mtairypride8, "alt":"Mt Airy Pride", "credit": "", "id": 8},
+        {"src": mtairypride9, "alt":"Mt Airy Pride", "credit": "", "id": 9},
+        {"src": mtairypride2, "alt":"Mt Airy Pride", "credit": "", "id": 2},
+        {"src": mtairypride10, "alt":"Mt Airy Pride", "credit": "", "id": 10},
+    ],
     youtube:[],
     reels:[],
     youtube: [],
-    type:'upcoming',         
-    description: "Daytime acoustic set between Drag Story Time and a perfomance by our friend Mx'ed Nuts",
+    type:'past',         
+    description: "Daytime kid-friendly acoustic set followed by a performance by our friend Mx'ed Nuts",
     details: '12pm at High Point Cafe Sunday Market, 6011 Germantown Ave, Philadelphia, PA',
     ticketsinfo: "Free event as part of the Mount Airy Pride Festival",
     ticketslink: '/events/mtairypride'
@@ -150,7 +170,10 @@ export const EVENTS = [
     location:"Greenstreet Coffee Co, Philadelphia, PA",
     date:'March 20, 2026',
     flyer: kcduplugged,
-    photos:[greenst1, greenst2, greenst3],
+    photos:[{"src": greenst1, "alt":"KCD at Green St Cafe", "credit": "Kimi Klauser", "id": 1},
+        {"src": greenst2, "alt":"KCD at Green St Cafe", "credit": "Kimi Klauser", "id": 2},
+        {"src": greenst3, "alt":"KCD at Green St Cafe", "credit": "Kimi Klauser", "id": 3},
+    ],
     youtube:[],
     reels:[],
     youtube: [],
