@@ -3,7 +3,7 @@ import SubHeader from '../components/SubHeader';
 import myBackgroundImage from '../app/assets/images/events/safeathome/donationbg.png';
 import venmo from '../app/assets/images/events/safeathome/venmo.png';
 import cashapp from '../app/assets/images/events/safeathome/cashapp.png';
-import paypal from '../app/assets/images/events/safeathome/paypal.png';
+import paypal from '../app/assets/images/events/safeathome/credit.png';
 
 
 const DonationPage = () => {
