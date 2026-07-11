@@ -101,7 +101,7 @@ export const EVENTS = [
     type:'upcoming',         
     description: "We are raising funds for Women Against Abuse in honor of our Erin's 40th birthday! Join us for a night of music, vendors, and raffles in support of Women Against Abuse",
     details: "Free Entry! Event starts at 5pm at Pentridge Station, 3711 Market St, Philadelphia, PA - Performances by Miss Olivia, Kurt Cobains's Dad, Erin Inchoherent, and Weirdo. The Women Against Abuse prevention team will be onsight to provide information about their services.",
-    ticketsinfo: "Donations can be made at the event in exchange for raffle tickets or online at the link below. All proceeds will go to Women Against Abuse",
+    ticketsinfo: "Donations can be made HERE. All proceeds will go to Women Against Abuse",
     ticketslink: '/safeathome'
 },
 {
