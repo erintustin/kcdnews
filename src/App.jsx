@@ -8,6 +8,7 @@ import EventsPage from './pages/EventsPage';
 import ContactPage from './pages/ContactPage';
 import MusicPage from './pages/MusicPage';
 import EventDetailPage from './pages/EventDetailPage';
+import DonationPage from './pages/DonationPage';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
                     path='events/:eventUri'
                     element={<EventDetailPage />}
                 /> 
+          <Route path='/safeathome' element={<DonationPage />} />
       </Routes>
       <Footer />
     </div>
