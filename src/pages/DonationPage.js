@@ -17,7 +17,6 @@ const DonationPage = () => {
                             <div className="overlay-wrapper" style={{position: 'relative', width: '100%'}}>
                                 <div className="donation-overlay-bg"></div>
                                 <div className="donation-overlay-content">
-                                    <h2> There are several ways to donate:</h2><br></br>
                                     <Row>
                                         <Col xs='4'>
                                             <a  href="https://venmo.com/u/ErinTustin" 
@@ -40,13 +39,11 @@ const DonationPage = () => {
                                                 target="_blank"
                                                 className="d-flex flex-column align-items-center text-center"
                                                 style={{color: 'black', fontWeight: 'bold'}}>
-                                            CREDIT CARD
+                                            CARD
                                             <img className='square-element' style={{width: 100}} src={paypal}></img></a>
                                         </Col>
                                     </Row>
-        
                                         
-                                       
                                     </div>
                                 </div>
                             </div>
